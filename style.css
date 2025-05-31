@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.skills ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.skills li {
+  background: #e0e0e0;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.skills li:hover {
+  transform: scale(1.1);
+  background-color: #a9d6e5;
+}
+
+.project-card, .intern-card {
+  background: #f1f1f1;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.cocurricular ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.contact a {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.resume-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #0077b6;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.resume-btn:hover {
+  background-color: #023e8a;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: white;
+  margin-top: 30px;
+}
+section {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px rgba(128, 0, 128, 0.5);
+}
